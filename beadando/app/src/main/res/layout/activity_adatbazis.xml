@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="ID: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextID"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Név: "
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editTextVaros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/editTextNev"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Város: "/>
+    <EditText
+        android:id="@+id/editTextUtcaHsz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:layout_below="@id/editTextVaros"
+        android:textSize="20sp"
+        android:hint="Utca, házszám: "/>
+
+    <Button
+        android:id="@+id/btn_felvisz"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/editTextUtcaHsz"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/green"
+        android:text="Felvisz"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_lekerdez"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/editTextUtcaHsz"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/btn_felvisz"
+        android:backgroundTint="@color/brown"
+        android:text="Lekérdez "
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_modosit"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/btn_lekerdez"
+        android:layout_marginLeft="-152dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/btn_lekerdez"
+        android:backgroundTint="@color/black"
+        android:text="Módosít"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_torol"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/btn_lekerdez"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/red"
+        android:text="Töröl"
+
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</RelativeLayout>

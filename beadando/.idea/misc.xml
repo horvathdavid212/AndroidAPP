@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1025" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_adat_fogad.xml" value="0.2269021739130435" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_adatbazis.xml" value="0.25" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_draw_value.xml" value="0.3038949275362319" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_expimp_intent.xml" value="0.2269021739130435" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_layouts.xml" value="0.18769230769230769" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_main.xml" value="0.2269021739130435" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_masik_exp_intent.xml" value="0.2269021739130435" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/activity_uzenet.xml" value="0.2269021739130435" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/fragment_adat_fogadXML.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codes/Android_codes/beadando/app/src/main/res/layout/fragment_adat_fogad_xml.xml" value="0.2671875" />
+        <entry key="..\:/Codes/Android_codes/beadando2/app/src/main/res/layout/activity_expimp_intent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codes/Android_codes/beadando2/app/src/main/res/layout/activity_main.xml" value="0.34148550724637683" />
+        <entry key="..\:/Codes/Android_codes/beadando2/app/src/main/res/layout/activity_masik_exp_intent.xml" value="0.2463768115942029" />
+        <entry key="..\:/Codes/Android_codes/beadando2/app/src/main/res/layout/activity_uzenet.xml" value="0.2463768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.horvath.david.beadando">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Beadando"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity_fragment"
+            android:label="Fragment adat fogadása"
+            android:exported="false" />
+        <activity
+            android:name=".activity_adatbazis"
+            android:exported="false"
+            android:label="Adatbázis" />
+        <activity
+            android:name=".activity_draw_value"
+            android:exported="false"
+            android:label="Háttérszín és képek" />
+        <activity
+            android:name=".activity_layouts"
+            android:exported="false"
+            android:label="Landscape/portrait" />
+        <activity
+            android:name=".activity_uzenet"
+            android:exported="false"
+            android:label="Üzenet" />
+        <activity
+            android:name=".activity_adat_fogad"
+            android:exported="false"
+            android:label="Adat fogad" />
+        <activity
+            android:name=".activity_masikExpIntent"
+            android:exported="false"
+            android:label="Másik intent" />
+        <activity
+            android:name=".activity_expimpIntent"
+            android:exported="false"
+            android:label="Explicit Implicit Intent" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
